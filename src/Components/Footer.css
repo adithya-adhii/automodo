@@ -1,0 +1,35 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 20px;
+  }
+  
+  .footer-left {
+    display: inline-block;
+    margin-right: 20px; /* Add this line */
+  }
+  
+  .footer-right {
+    display: inline-block;
+  }
+  
+  .footer-right div {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .footer-right ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-right li {
+    color: #fff;
+    margin-bottom: 5px;
+  }
+  
+  .footer-right b {
+    color: #fff;
+    margin-right: 10px;
+  }
